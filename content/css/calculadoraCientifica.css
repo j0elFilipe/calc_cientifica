@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+h1 {
+    text-align: center;
+}
+
+.fundo {
+    background-image: linear-gradient(45deg, black, crimson);
+    height: 100vh;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+
+.calculadora {
+    position: absolute;
+    /*ASSIM, ESSA DIV OCUPARÁ APENAS "O SEU ESPAÇO"*/
+    background-color: rgba(0, 0, 0, 0.8);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /*PARA MOVER ESSA DIV NA DIAGONAL*/
+    border-radius: 15px;
+    padding: 15px;
+}
+
+.botao {
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    cursor: pointer;
+    background-color: rgb(31, 31, 31);
+    border: none;
+    color: #fff;
+    margin: 3px;
+}
+
+.botao:hover {
+    background-color: black;
+}
+
+#resultado {
+    background-color: white;
+    width: 607x;
+    height: 100px;
+    margin: 5px;
+    font-size: 25px;
+    color: black;
+    text-align: right;
+    padding: 5px;
+}
+
+
+#raizq {
+    width: 106px;
+}
+
+#raizx {
+    width: 106px;
+}
+
+#x2 {
+    width: 106px;
+}
+
+#x3 {
+    width: 106px;
+}
+
+#xy {
+    width: 106px;
+}
+
+#sin {
+    width: 106px;
+}
+
+#cos {
+    width: 106px;
+}
+
+#tan {
+    width: 106px;
+}
+
+#sin-1 {
+    width: 106px;
+}
+
+#cos-1 {
+    width: 106px;
+}
+
+#tan-1 {
+    width: 106px;
+}
+
+#ele10 {
+    width: 106px;
+}
+
+#modulox {
+    width: 106px;
+}
+
+#exp {
+    width: 106px;
+}
+
+#mod {
+    width: 106px;
+}
+
+#sobrex {
+    width: 106px;
+}
+
+#eule {
+    width: 106px;
+}
+
+#log {
+    width: 106px;
+}
+
+#ln {
+    width: 106px;
+}
+
+#pi {
+    width: 106px;
+}
+
+#dms {
+    width: 106px;
+}
+
+#deg {
+    width: 106px;
+}
+
+#mais-menos {
+    width: 106px;
+}
+
+#factorial {
+    width: 106px;
+}
+
+#abre-p {
+    width: 106px;
+}

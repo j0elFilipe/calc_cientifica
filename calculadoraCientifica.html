@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="content/css/calculadoraCientifica.css">
+    <title>Calculadora Científica</title>
+</head>
+
+<body>
+    <script src="scripts/calculadoraCientifica.js"></script>
+    <div class="fundo">
+        <h1>CDJ</h1>
+        <div class="calculadora">
+            <h1>Calculadora</h1>
+            <div>
+                <p id="resultado1"></p>
+            </div>
+
+            <p id="resultado"></p>
+            <table>
+                <tr>
+                    <td><button class="botao" id="x2" onclick="exp()">x^2</button></td>
+                    <td><button class="botao" id="xy" onclick="">x^y</button></td>
+                    <td><button class="botao" id="sin" onclick="insert('sin(')">sin</button></td>
+                    <td><button class="botao" id="cos" onclick="insert('cos(')">cos</button></td>
+                    <td><button class="botao" id="tan" onclick="insert('tan(')">tan</button></td>
+                    <td><button class="botao" onclick="insert(Math.pow())">e</button></td>
+                    <td><button class="botao" onclick="limpa()">AC</button></td>
+                    <td><button class="botao" onclick="back()">C</button></td>
+                    <td><button class="botao" onclick="insert('/')">/</button></td>
+                </tr>
+
+                <tr>
+                    <td><button class="botao" id="x3" onclick="insert()">x^3</button></td>
+                    <td><button class="botao" onclick="limpa()" id="raizq">Raiz</button></td>
+                    <td><button class="botao" id="sin-1" onclick="">sin^-1</button></td>
+                    <td><button class="botao" id="cos-1" onclick="">cos^-1</button></td>
+                    <td><button class="botao" id="tan-1" onclick="">tan^-1</button></td>
+                    <td><button class="botao" onclick="insert(7)">7</button></td>
+                    <td><button class="botao" onclick="insert(8)">8</button></td>
+                    <td><button class="botao" onclick="insert(9)">9</button></td>
+                    <td><button class="botao" onclick="insert('x')">x</button></td>
+                </tr>
+
+                <tr>
+                    <td><button class="botao" onclick="insert()" id="raizx">Raiz x</button></td>
+                    <td><button class="botao" id="ele10" onclick="insert('/')">10^x</button></td>
+                    <td><button class="botao" id="modulox" onclick="insert('x')">|x|</button></td>
+                    <td><button class="botao" id="exp" onclick="limpa()">exp</button></td>
+                    <td><button class="botao" id="mod" onclick="limpa()">mod</button></td>
+                    <td><button class="botao" onclick="insert(4)">4</button></td>
+                    <td><button class="botao" onclick="insert(5)">5</button></td>
+                    <td><button class="botao" onclick="insert(6)">6</button></td>
+                    <td><button class="botao" onclick="insert('+')">+</button></td>
+                </tr>
+
+                <tr>
+                    <td><button class="botao" id="sobrex" onclick="insert(1)">1/x</button></td>
+                    <td><button class="botao" id="eule" onclick="insert(1)">e^x</button></td>
+                    <td><button class="botao" id="log" onclick="insert(1)">log</button></td>
+                    <td><button class="botao" id="ln" onclick="insert(1)">ln</button></td>
+                    <td><button class="botao" id="pi" onclick="insert(3,14)">pi</button></td>
+                    <td><button class="botao" onclick="insert(1)">1</button></td>
+                    <td><button class="botao" onclick="insert(2)">2</button></td>
+                    <td><button class="botao" onclick="insert(3)">3</button></td>
+                    <td><button class="botao" onclick="insert('-')">-</button></td>
+                </tr>
+
+                <tr>
+                    <td><button class="botao" id="dms" onclick="">dms</button></td>
+                    <td><button class="botao" id="deg" onclick="">deg</button></td>
+                    <td><button class="botao" id="mais-menos" onclick="">+/-</button></td>
+                    <td><button class="botao" id="factorial" onclick="limpa()">n!</button></td>
+                    <td><button class="botao" id="abre-p" onclick="insert('(')">(</button></td>
+                    <td><button class="botao" onclick="insert(')')">)</button></td>
+                    <td><button class="botao" id="zero" onclick="insert(0)">0</button></td>
+                    <td><button class="botao" onclick="insert(',')">,</button></td>
+                    <td><button class="botao" id="igual" onclick="calcular()">=</button></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</body>
+</body>
+
+</html>
