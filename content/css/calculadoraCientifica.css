@@ -46,13 +46,26 @@ h1 {
 
 #resultado {
     background-color: white;
-    width: 607x;
+    width: 785px;
     height: 100px;
     margin: 5px;
     font-size: 25px;
     color: black;
     text-align: right;
     padding: 5px;
+    border-style: none;
+}
+
+#resultado1 {
+    background-color: white;
+    width: 785px;
+    height: 100px;
+    margin: 5px;
+    font-size: 25px;
+    color: black;
+    text-align: right;
+    padding: 5px;
+    border-style: none;
 }
 
 
